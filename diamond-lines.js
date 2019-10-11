@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(255);
   for (var x1=200; x1>=10; x1=x1-10){
     for (var y1=10; y1<=200; y1=y1+10){
       for (var a1=200: a1<=390; a1=a1+10){
