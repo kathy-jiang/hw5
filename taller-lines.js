@@ -1,12 +1,18 @@
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(400, 400);
 }
 
 function draw() {
-  background(220);
-  for (var i = 10; i <= 3900; i = i + 10) {
+  background(255);
+  
+  var  i;
   
   
-    line(i, 10, i, i);
+  
+  for (i = 5; i<=400; i+=10){
+    line(i,0,i,(height/100+i)*2);
+  
+   
   }
+
 }
